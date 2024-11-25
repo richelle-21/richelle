@@ -1,0 +1,65 @@
+html{
+    background-image: 
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 1280px;
+    position: fixed;
+}
+
+/* Kode CSS Navigator */ 
+ul{
+    list-style: none;
+    display: flex;
+    background:#add8e6;
+    padding: 0px 0px;
+    margin: 171px 0px;
+    position: fixed;
+    width: 1280px; 
+    height: 60px; 
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px; 
+    overflow: hidden;
+}
+
+ul li a{
+    padding: 0px 0px; 
+    text-align: center;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+ul a:hover{
+    background-color: rgb(158, 188, 244);
+    color: black;
+
+}
+
+/* Kode css dropdown */
+ul li ul.dropdown{
+    background:lightcyan;
+    position: absolute;
+    display: none;
+    width: auto; 
+    height: auto; 
+    margin: 0px 0px; 
+}
+
+ul.li:hover ul.dropdown{
+    display: block; 
+}
