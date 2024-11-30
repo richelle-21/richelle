@@ -1,0 +1,200 @@
+html{
+    background-image: url(ea.jpg);
+    position: top;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: top;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: -23px 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 1280px;
+    position: top;
+    margin: auto;
+    height: 80px;
+}
+
+_________________________________________
+  
+  .topnav {
+    list-style: none;
+    background:#8EACCD;
+    overflow: hidden;
+    margin: 171px 0px;
+    position: top;
+  }
+
+  .fixed {
+    position: top;
+    margin: 70px 0px;
+    top: 148.5px;
+    width: 100%;
+    background:#F0F0F0;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: #3a4d64;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    background:#F0F0F0; 
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    margin: 0;
+  }
+  
+  .topnav a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+_____________________________________________
+
+.dropdown{
+    color:#3a4d64;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 15px 0px 0px;
+}
+
+.dropbtn{
+    color:#3a4d64;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 15px 0px 0px;
+    
+}
+
+.dropdown-content{
+    color:#3a4d64;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 15px 0px 0px;
+}
+
+.home{
+    color:#3a4d64;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F0F0F0;
+}
+
+.dropdown-content .isi{
+    color:#3a4d64;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.main {
+    padding: 55px 0px;
+    margin-top: 0px;
+    text-align: center;
+    /* Used in this example to enable scrolling */
+  }
+
+.main h1{
+    color:#3b495b;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main h3{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#323131;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer{
+    position: relative;
+    margin: 12px 0px;
+}
+
+.datang{
+    margin: 70px 0px 0px 0px;
+}
+
+.img1{
+    margin-right: 0px;
+    margin-left: 70px;
+    border-style: dashed;
+    padding: 8px;
+}
+
+.img2{
+    float: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 150px;
+    border-style: dashed;
+    padding: 8px;
+}
+
+.img3{
+    border-style: dashed;
+    padding: 8px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+.images{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 80px;
+}
